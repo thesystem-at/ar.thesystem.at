@@ -29,7 +29,8 @@
   },
   "dependencies": {
     "@magic-modules/no-spy": "0.0.5",
-    "@magic/core": "0.0.87"
+    "@magic/core": "0.0.87",
+    "@thesystem-at/magic-theme": "github:thesystem-at/magic-theme"
   },
   "devDependencies": {
     "@magic/format": "0.0.13",
