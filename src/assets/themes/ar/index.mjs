@@ -7,7 +7,7 @@ export default v => {
 
   return {
     '.Footer': {
-      margin: '3em 0 0',
+      margin: '3em 0 0 3vw',
     },
 
     '.Page': {
