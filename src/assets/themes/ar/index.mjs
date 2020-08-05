@@ -7,9 +7,7 @@ export default v => {
 
   return {
     '.Footer': {
-      bottom: 0,
-      margin: `0 ${v.pageMargin}`,
-      position: 'absolute',
+      margin: '3em 0 0',
     },
 
     '.Page': {
@@ -18,6 +16,13 @@ export default v => {
       h1: {
         margin: `0 0 0 -${v.pageMargin}`,
         padding: '1em 0 2em',
+      },
+    },
+
+    [`@media screen and (min-height: ${v.widths.laptop})`]: {
+      '.Footer': {
+        position: 'absolute',
+        bottom: 0,
       },
     },
   }
