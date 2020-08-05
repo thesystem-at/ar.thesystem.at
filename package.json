@@ -1,0 +1,56 @@
+{
+  "name": "ar.thesystem.at",
+  "version": "0.23.5",
+  "private": true,
+  "author": "Wizards & Witches",
+  "description": "@magic example page.",
+  "license": "AGPL-3.0",
+  "homepage": "https://ar.thesystem.at",
+  "engines": {
+    "node": ">=14.2.0"
+  },
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docs",
+    "build": "NODE_ENV=production magic build",
+    "devbuild": "magic build",
+    "prod": "NODE_ENV=production magic build serve",
+    "dev": "magic dev",
+    "publish": "magic publish",
+    "connect": "magic connect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesystem-at/ar.thesystem.at.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thesystem-at/ar.thesystem.at/issues"
+  },
+  "dependencies": {
+    "@magic-modules/no-spy": "0.0.5",
+    "@magic/core": "0.0.87"
+  },
+  "devDependencies": {
+    "@magic/format": "0.0.13",
+    "@magic/test": "0.1.52"
+  },
+  "keywords": [
+    "THESYSTEM",
+    "collective",
+    "artificial",
+    "reality",
+    "webxr",
+    "xr"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    },
+    {
+      "name": "daniela weiss",
+      "github": "mslitto"
+    }
+  ]
+}
