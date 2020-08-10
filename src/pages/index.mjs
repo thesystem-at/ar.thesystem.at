@@ -1,7 +1,7 @@
 export const View = state => [
-  Slogan({ subTitle: 'artificial reality' }),
+  Slogan({ subTitle: 'augmented reality' }),
 
-  p('artificial reality application.'),
+  p('augmented reality application.'),
   p(['part of ', Link({ to: 'https://thesystem.at', text: 'THESYSTEM' }), '.']),
   p('more info soon.'),
 ]
